@@ -1,0 +1,28 @@
+/**
+ * Includes modifications to the style sheet for older versions of Internet 
+ * Explorer.
+ *
+ * This style is only needed if you need to support version 5.5 through 6 of
+ * Internet Explorer. To use it, you must use "conditional comments" in your
+ * HTML page. After attaching the primary style sheet to your page, add the 
+ * following code (substituting the proper "href" path for your site):
+ *
+ * <!--[if gte IE 5.5]>
+ * <![if lt IE 7]>
+ * <link href="styles/Nasa2008/full_ie.css" rel="stylesheet" type="text/css" />
+ * <![endif]>
+ * <![endif]-->
+ *
+ * This will cause the additional style instructions to only be loaded for
+ * versions of Internet Explorer greater than or equal to version 5.5 and less
+ * than version 7.
+ *
+ * @package       Larc
+ * @subpackage    Nasa2008
+ * @author        Cory R. Gilbert <cory.r.gilbert@nasa.gov>
+ */
+
+/*-----SITE MENU--------------------------------------------------------------*/
+#site_menu li {
+	width:100px;
+}

@@ -1,0 +1,31 @@
+/**
+ * Defines the style instructions for print rendering of a page with only
+ * the core structural pieces.
+ *
+ * @package       Larc
+ * @subpackage    Nasa2008
+ * @author        Cory R. Gilbert <cory.r.gilbert@nasa.gov>
+ */
+ 
+/* Base of printed style is the same as screen style. */
+@import url(main.css);
+
+/* Use for elements that should not be printed. */
+.noprint {display:none;}
+
+/* Turn off backgrounds, borders, and fix colors. */
+a.external {background: none;padding-right: 0px;}
+body {background:none;color:#000000;}
+#site_header {background:none;color:#000000;}
+#site_title {background:none;color:#000000;}
+#site_title a {color:#000000;}
+#site_menu li {color:#000000;}
+#site_menu a {color:#000000;}
+#section_title {background:none;color:#000000;}
+#section_menu {background:none;color:#000000;}
+#section_menu a {color:#000000;}
+#page_title {background:none;color:#000000;}
+#page_menu {background:none;color:#000000;}
+#page_content {background:none;color:#000000;}
+#page_footer {background:none;color:#000000;}
+#site_footer {background:none;color:#000000;}
